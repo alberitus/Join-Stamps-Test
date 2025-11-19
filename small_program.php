@@ -19,7 +19,6 @@ for ($i = 100; $i >= 1; $i--) {
         continue;
     }
 
-    // FooBar rules
     if ($i % 15 == 0) {
         $result[] = "FooBar";
     } elseif ($i % 3 == 0) {
